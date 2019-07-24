@@ -1,0 +1,150 @@
+import threading
+
+import pymongo
+import random
+from time import sleep
+
+import requests
+from bs4 import BeautifulSoup
+
+
+heads = [
+    "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.1 (KHTML, like Gecko) Chrome/22.0.1207.1 Safari/537.1",
+    "Mozilla/5.0 (X11; CrOS i686 2268.111.0) AppleWebKit/536.11 (KHTML, like Gecko) Chrome/20.0.1132.57 Safari/536.11",
+    "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/536.6 (KHTML, like Gecko) Chrome/20.0.1092.0 Safari/536.6",
+    "Mozilla/5.0 (Windows NT 6.2) AppleWebKit/536.6 (KHTML, like Gecko) Chrome/20.0.1090.0 Safari/536.6",
+    "Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.1 (KHTML, like Gecko) Chrome/19.77.34.5 Safari/537.1",
+    "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/536.5 (KHTML, like Gecko) Chrome/19.0.1084.9 Safari/536.5",
+    "Mozilla/5.0 (Windows NT 6.0) AppleWebKit/536.5 (KHTML, like Gecko) Chrome/19.0.1084.36 Safari/536.5",
+    "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/536.3 (KHTML, like Gecko) Chrome/19.0.1063.0 Safari/536.3",
+    "Mozilla/5.0 (Windows NT 5.1) AppleWebKit/536.3 (KHTML, like Gecko) Chrome/19.0.1063.0 Safari/536.3",
+    "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_0) AppleWebKit/536.3 (KHTML, like Gecko) Chrome/19.0.1063.0 Safari/536.3",
+    "Mozilla/5.0 (Windows NT 6.2) AppleWebKit/536.3 (KHTML, like Gecko) Chrome/19.0.1062.0 Safari/536.3",
+    "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/536.3 (KHTML, like Gecko) Chrome/19.0.1062.0 Safari/536.3",
+    "Mozilla/5.0 (Windows NT 6.2) AppleWebKit/536.3 (KHTML, like Gecko) Chrome/19.0.1061.1 Safari/536.3",
+    "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/536.3 (KHTML, like Gecko) Chrome/19.0.1061.1 Safari/536.3",
+    "Mozilla/5.0 (Windows NT 6.1) AppleWebKit/536.3 (KHTML, like Gecko) Chrome/19.0.1061.1 Safari/536.3",
+    "Mozilla/5.0 (Windows NT 6.2) AppleWebKit/536.3 (KHTML, like Gecko) Chrome/19.0.1061.0 Safari/536.3",
+    "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.24 (KHTML, like Gecko) Chrome/19.0.1055.1 Safari/535.24",
+    "Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/535.24 (KHTML, like Gecko) Chrome/19.0.1055.1 Safari/535.24"
+]
+ip_proxy = [
+    {'HTTP': 'HTTP://182.116.227.173:9999'},
+    {'HTTP': 'HTTP://182.116.229.193:9999'},
+    {'HTTP': 'HTTP://182.116.230.217:9999'},
+    {'HTTP': 'HTTP://182.116.234.64:9999'},
+    {'HTTP': 'HTTP://111.177.113.172:9999'},
+    {'HTTPS': 'HTTPS://163.204.92.142:9999'},
+    {'HTTPS': 'HTTPS://222.189.190.12:9999'},
+    {'HTTP': 'HTTP://101.200.43.49:6000'},
+    {'HTTPS': 'HTTPS://120.83.106.68:9999'},
+    {'HTTPS': 'HTTPS://1.198.72.114:9999'},
+    {'HTTP': 'HTTP://120.83.104.33:9999'},
+    {'HTTPS': 'HTTPS://113.121.22.117:9999'},
+    {'HTTP': 'HTTP://27.42.168.46:48919'},
+    {'HTTP': 'HTTP://222.189.191.173:9999'},
+    {'HTTP': 'HTTP://1.198.72.189:9999'},
+    {'HTTP': 'HTTP://180.119.141.178:9999'},
+    {'HTTP': 'HTTP://114.230.24.163:9999'},
+    {'HTTP': 'HTTP://115.223.125.252:8010'},
+    {'HTTPS': 'HTTPS://58.253.158.24:9999'},
+    {'HTTP': 'HTTP://1.198.72.203:9999'},
+    {'HTTPS': 'HTTPS://27.43.185.53:9999'},
+    {'HTTPS': 'HTTPS://58.253.155.94:9999'},
+    {'HTTPS': 'HTTPS://171.80.3.100:9999'},
+    {'HTTP': 'HTTP://222.89.32.186:9999'},
+    {'HTTP': 'HTTP://120.83.111.145:9999'},
+    {'HTTP': 'HTTP://114.230.24.63:9999'},
+    {'HTTP': 'HTTP://115.219.106.68:8010'},
+    {'HTTP': 'HTTP://222.189.144.163:9999'},
+    {'HTTPS': 'HTTPS://113.121.22.92:808'},
+    {'HTTP': 'HTTP://112.85.169.227:9999'},
+    {'HTTP': 'HTTP://117.91.130.250:9999'},
+    {'HTTP': 'HTTP://1.198.73.84:9999'},
+    {'HTTP': 'HTTP://122.192.229.192:9999'},
+    {'HTTP': 'HTTP://117.91.130.220:9999'},
+    {'HTTPS': 'HTTPS://222.189.191.105:9999'},
+    {'HTTP': 'HTTP://116.208.55.133:9999'},
+    {'HTTP': 'HTTP://60.182.197.241:61234'},
+    {'HTTPS': 'HTTPS://163.204.93.192:9999'},
+    {'HTTPS': 'HTTPS://121.232.194.188:9999'},
+    {'HTTPS': 'HTTPS://222.189.190.149:9999'},
+    {'HTTP': 'HTTP://1.198.72.50:9999'},
+    {'HTTPS': 'HTTPS://114.230.24.125:9999'},
+    {'HTTPS': 'HTTPS://222.189.144.72:9999'},
+    {'HTTPS': 'HTTPS://113.121.47.104:9999'},
+    {'HTTP': 'HTTP://115.204.197.68:8118'},
+    {'HTTP': 'HTTP://1.197.204.251:9999'},
+    {'HTTP': 'HTTP://113.121.22.122:9999'},
+    {'HTTPS': 'HTTPS://222.189.190.59:9999'},
+    {'HTTP': 'HTTP://117.91.232.169:9999'},
+    {'HTTP': 'HTTP://171.80.114.17:9999'},
+    {'HTTPS': 'HTTPS://113.128.31.217:30272'},
+    {'HTTP': 'HTTP://27.43.190.112:9999'},
+    {'HTTPS': 'HTTPS://121.233.207.129:9999'},
+    {'HTTP': 'HTTP://182.35.84.4:9999'},
+    {'HTTPS': 'HTTPS://114.230.69.215:9999'},
+    {'HTTPS': 'HTTPS://222.189.144.105:9999'},
+    {'HTTP': 'HTTP://122.4.47.37:9999'},
+    {'HTTP': 'HTTP://122.4.29.187:23883'},
+    {'HTTPS': 'HTTPS://222.189.144.129:9999'},
+    {'HTTPS': 'HTTPS://116.208.54.17:9999'},
+    {'HTTPS': 'HTTPS://121.233.251.123:9999'},
+    {'HTTP': 'HTTP://120.83.105.115:9999'},
+    {'HTTP': 'HTTP://222.89.32.150:9999'},
+    {'HTTP': 'HTTP://113.121.22.62:9999'},
+    {'HTTPS': 'HTTPS://58.253.156.61:9999'},
+    {'HTTP': 'HTTP://115.239.25.11:9999'},
+    {'HTTPS': 'HTTPS://113.121.21.251:9999'},
+    {'HTTPS': 'HTTPS://116.208.11.72:9999'},
+    {'HTTPS': 'HTTPS://58.253.153.155:9999'},
+    {'HTTPS': 'HTTPS://222.189.144.242:9999'},
+    {'HTTPS': 'HTTPS://120.83.110.1:9999'},
+    {'HTTP': 'HTTP://117.91.253.79:9999'},
+    {'HTTP': 'HTTP://117.91.253.88:9999'},
+    {'HTTP': 'HTTP://171.12.113.74:9999'},
+    {'HTTP': 'HTTP://1.197.11.113:9999'},
+    {'HTTP': 'HTTP://121.232.199.109:9999'},
+    {'HTTP': 'HTTP://113.120.36.46:9999'},
+    {'HTTPS': 'HTTPS://49.84.195.91:9999'},
+    {'HTTPS': 'HTTPS://113.124.86.250:9999'},
+    {'HTTPS': 'HTTPS://125.123.139.35:9999'},
+    {'HTTP': 'HTTP://59.32.37.237:61234'},
+    {'HTTPS': 'HTTPS://113.124.86.206:9999'},
+    {'HTTPS': 'HTTPS://42.238.82.163:9999'},
+    {'HTTPS': 'HTTPS://120.83.109.74:9999'},
+    {'HTTPS': 'HTTPS://58.56.149.198:53281'},
+    {'HTTP': 'HTTP://182.34.27.68:9999'},
+    {'HTTP': 'HTTP://163.204.93.220:9999'},
+    {'HTTP': 'HTTP://171.15.172.171:9999'},
+    {'HTTP': 'HTTP://112.111.217.188:9999'},
+    {'HTTP': 'HTTP://171.15.51.60:9999'},
+    {'HTTP': 'HTTP://42.238.90.107:9999'},
+    {'HTTP': 'HTTP://218.73.118.18:9999'},
+    {'HTTP': 'HTTP://182.34.27.226:9999'},
+    {'HTTP': 'HTTP://171.15.65.187:9999'},
+    {'HTTP': 'HTTP://42.238.80.233:9999'},
+    {'HTTPS': 'HTTPS://111.226.211.74:8118'},
+    {'HTTPS': 'HTTPS://113.120.39.173:9999'},
+    {'HTTPS': 'HTTPS://113.117.66.225:9999'},
+    {'HTTPS': 'HTTPS://49.70.18.190:61234'},
+    {'HTTP': 'HTTP://42.238.91.63:9999'},
+
+]
+head = {
+        "Accept": "*/*",
+        "Accept-Encoding": "gzip, deflate, br",
+        "Accept-Language": "zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3",
+        "Cookie": "l=AurqcPuigwQdnQv7WvAfCoR1OlrRQW7h; isg=BHp6mNB79CHqYXpVEiRteXyyyKNcg8YEwjgLqoRvCI3ddxqxbLtOFUBGwwOrZ3ad; thw=cn; cna=VsJQERAypn0CATrXFEIahcz8; t=0eed37629fe7ef5ec0b8ecb6cd3a3577; tracknick=tb830309_22; _cc_=UtASsssmfA%3D%3D; tg=0; ubn=p; ucn=unzbyun; x=e%3D1%26p%3D*%26s%3D0%26c%3D0%26f%3D0%26g%3D0%26t%3D0%26__ll%3D-1%26_ato%3D0; miid=981798063989731689; hng=CN%7Czh-CN%7CCNY%7C156; um=0712F33290AB8A6D01951C8161A2DF2CDC7C5278664EE3E02F8F6195B27229B88A7470FD7B89F7FACD43AD3E795C914CC2A8BEB1FA88729A3A74257D8EE4FBBC; enc=1UeyOeN0l7Fkx0yPu7l6BuiPkT%2BdSxE0EqUM26jcSMdi1LtYaZbjQCMj5dKU3P0qfGwJn8QqYXc6oJugH%2FhFRA%3D%3D; ali_ab=58.215.20.66.1516409089271.6; mt=ci%3D-1_1; cookie2=104f8fc9c13eb24c296768a50cabdd6e; _tb_token_=ee7e1e1e7dbe7; v=0",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36"
+    }
+for i in range(10):
+    sleep(random.randint(0, 3))
+    head['User-Agent'] = heads[i]
+    try:
+        res = requests.get(url='https://blog.csdn.net/cd_home/article/details/79558337', headers=head, proxies=ip_proxy[i])
+    except Exception as e:
+        print(e)
+        continue
+    else:
+        print("aaaaaaaaaaa-----------", i)
