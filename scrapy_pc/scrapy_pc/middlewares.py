@@ -4,8 +4,13 @@
 #
 # See documentation in:
 # https://docs.scrapy.org/en/latest/topics/spider-middleware.html
+import base64
 
 from scrapy import signals
+
+from scrapy.spiders import Request
+import random
+from scrapy_pc.settings import user_agents, PROXIES
 
 
 class ScrapyPcSpiderMiddleware(object):
@@ -101,3 +106,34 @@ class ScrapyPcDownloaderMiddleware(object):
 
     def spider_opened(self, spider):
         spider.logger.info('Spider opened: %s' % spider.name)
+
+
+class RandomHeaders(object):
+
+    def process_request(self, request, spider):
+        # Called for each request that goes through the downloader
+        # middleware.
+        # Must either:
+        # - return None: continue processing this request
+        # - or return a Response object
+        # - or return a Request object
+        # - or raise IgnoreRequest: process_exception() methods of
+        #   installed downloader middleware will be called
+        user_agent = random.choice(user_agents)
+        request.headers.setdefault('User-Agent', user_agent)
+        return None
+
+
+class RandomProxyMiddleware(object):
+    """
+    设置Proxy
+    """
+    def process_request(self, request, spider):
+        proxy = random.choice(PROXIES)
+
+        if proxy['user_password'] is None:
+            request.meta['proxy'] = 'http://' + proxy['ip+port']
+        else:
+            bs64_userpassword = base64.b64encode(proxy['user_password'])
+            request.headers['Proxy-Authorization'] = 'Basic ' + bs64_userpassword
+            request.meta['proxy'] = 'http://' + proxy['ip+port']

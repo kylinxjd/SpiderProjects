@@ -16,12 +16,18 @@ NEWSPIDER_MODULE = 'baidufinance.spiders'
 
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
-#USER_AGENT = 'baidufinance (+http://www.yourdomain.com)'
+USER_AGENT = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36'
 
 # Obey robots.txt rules
 ROBOTSTXT_OBEY = False
 
+
+PROXIES = [
+    {'ip_port':'47.98.237.129:80', 'password':''},
+]
+
 # Configure maximum concurrent requests performed by Scrapy (default: 16)
+# Scrapy downloader(下载器) 处理的最大的并发请求数量。 默认: 16
 #CONCURRENT_REQUESTS = 32
 
 # Configure a delay for requests for the same website (default: 0)
@@ -39,6 +45,7 @@ ROBOTSTXT_OBEY = False
 #TELNETCONSOLE_ENABLED = False
 
 # Override the default request headers:
+# 默认的请求头，cookie不要放在这里，会不生效
 DEFAULT_REQUEST_HEADERS = {
   'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36',
 
@@ -68,7 +75,11 @@ ITEM_PIPELINES = {
    'baidufinance.pipelines.BaidufinancePipeline': 300,
 }
 
-# LOG_LEVEL = 'WARNING'
+DOWNLOAD_DELAY = 0.25
+
+LOG_LEVEL = 'WARNING'
+
+
 
 # Enable and configure the AutoThrottle extension (disabled by default)
 # See https://docs.scrapy.org/en/latest/topics/autothrottle.html

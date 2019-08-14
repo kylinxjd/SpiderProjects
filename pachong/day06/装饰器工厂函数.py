@@ -3,7 +3,7 @@ def func1(*args, **kwargs):  # 接受@func1的参数
 
     def func2(func):
         def func3():
-            print("kkkkkk")
+            print("执行function——a之前")
             return func()
 
         return func3
@@ -13,9 +13,7 @@ def func1(*args, **kwargs):  # 接受@func1的参数
 
 @func1(2, g=9)
 def a():
-    print("lllllllll")
-    return "xjd"
+    print("执行function——a")
 
-
-s = a()
-print(s)
+if __name__ == '__main__':
+    a()

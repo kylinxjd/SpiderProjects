@@ -4,6 +4,7 @@ from queue import Queue
 import requests
 from lxml import etree
 
+
 class Douban(object):
 
     def __init__(self):
@@ -18,7 +19,7 @@ class Douban(object):
         self.url_list = [self.base_url % (i * 25) for i in range(10)]
 
     def send_request(self, url):
-        res = requests.get(url,headers=self.headers)
+        res = requests.get(url, headers=self.headers)
         return self.responses_handler(res.text)
 
     def responses_handler(self, html_str):
@@ -26,7 +27,7 @@ class Douban(object):
 
         movie_name = html_doc.xpath('//ol/li/div/div[2]/div[1]/a/span[1]/text()')
         movie_score = html_doc.xpath('//ol/li[1]/div/div[2]/div[2]/div/span[2]/text()')
-        self.data_queue.put(movie_name+movie_score)
+        self.data_queue.put(movie_name + movie_score)
 
     def start_work(self):
         thread_list = []
@@ -37,6 +38,7 @@ class Douban(object):
 
         for thread in thread_list:
             thread.join()
+
 
 if __name__ == '__main__':
     douban = Douban()

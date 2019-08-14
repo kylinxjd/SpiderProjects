@@ -1,7 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="eb4a322b-ec05-45a0-912e-6c72081cfb01" name="Default Changelist" comment="" />
+    <list default="true" id="eb4a322b-ec05-45a0-912e-6c72081cfb01" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../baidufinance/.idea/inspectionProfiles/Project_Default_copy.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../baidufinance/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../fenghuang/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../fenghuang/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../my_spider/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pachong/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pachong/day0722/test3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scrapy_pc/spiders/myspiderClass.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scrapy_pc/spiders/源码解释.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../seleniumProject/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../seleniumProject/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../seleniumProject/0726.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../seleniumProject/denglu.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../seleniumProject/代理.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../seleniumProject/代理ip.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baidufinance/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../baidufinance/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baidufinance/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../baidufinance/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baidufinance/baidufinance/pipelines.py" beforeDir="false" afterPath="$PROJECT_DIR$/../baidufinance/baidufinance/pipelines.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baidufinance/baidufinance/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/../baidufinance/baidufinance/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baidufinance/baidufinance/spiders/finance.py" beforeDir="false" afterPath="$PROJECT_DIR$/../baidufinance/baidufinance/spiders/finance.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my_spider/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../my_spider/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pachong/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../pachong/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pachong/day0102/ip.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../pachong/day0102/ip.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pachong/day0102/代理ip.py" beforeDir="false" afterPath="$PROJECT_DIR$/../pachong/day0102/代理ip.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scrapy_pc/middlewares.py" beforeDir="false" afterPath="$PROJECT_DIR$/scrapy_pc/middlewares.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scrapy_pc/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/scrapy_pc/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scrapy_pc/spiders/my_spider.py" beforeDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,46 +45,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/scrapy_pc/spiders/tianyan2.py">
+        <entry file="file://$PROJECT_DIR$/scrapy_pc/spiders/scrapy25.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="540">
-              <caret line="32" column="79" selection-start-line="32" selection-start-column="79" selection-end-line="32" selection-end-column="79" />
-              <folding>
-                <element signature="e#24#37#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/scrapy_pc/spiders/tianyan.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="468">
-              <caret line="28" column="83" selection-start-line="28" selection-start-column="52" selection-end-line="28" selection-end-column="83" />
-              <folding>
-                <element signature="e#24#37#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/scrapy_pc/spiders/tianyan3.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="702">
-              <caret line="43" column="30" selection-start-line="43" selection-start-column="30" selection-end-line="43" selection-end-column="30" />
-              <folding>
-                <element signature="e#24#33#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/scrapy_pc/spiders/boss.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="11" column="35" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
+            <state relative-caret-position="462">
+              <caret line="24" column="67" selection-start-line="24" selection-start-column="67" selection-end-line="24" selection-end-column="67" />
             </state>
           </provider>
         </entry>
@@ -61,26 +56,24 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/scrapy_pc/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="864">
-              <caret line="48" column="1" selection-start-line="48" selection-start-column="1" selection-end-line="48" selection-end-column="1" />
+            <state relative-caret-position="366">
+              <caret line="115" column="3" selection-start-line="115" selection-start-column="3" selection-end-line="115" selection-end-column="3" />
+              <folding>
+                <element signature="e#1736#3983#0" />
+                <element signature="e#4116#7243#0" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://D:/SoftWare/Python36/Lib/re.py">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/scrapy_pc/middlewares.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3420">
-              <caret line="193" column="40" selection-start-line="193" selection-start-column="40" selection-end-line="193" selection-end-column="40" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/scrapy_pc/items.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="18" column="20" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="20" />
+            <state relative-caret-position="297">
+              <caret line="123" column="19" lean-forward="true" selection-start-line="123" selection-start-column="19" selection-end-line="123" selection-end-column="19" />
+              <folding>
+                <element signature="e#169#182#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -94,6 +87,14 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>DOWNLOAD_DELAY</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -104,17 +105,24 @@
         <option value="$PROJECT_DIR$/scrapy_pc/spiders/tianyan.py" />
         <option value="$PROJECT_DIR$/scrapy_pc/spiders/tianyan2.py" />
         <option value="$PROJECT_DIR$/scrapy_pc/spiders/tianyan3.py" />
-        <option value="$PROJECT_DIR$/scrapy_pc/settings.py" />
         <option value="$PROJECT_DIR$/scrapy_pc/spiders/boss.py" />
+        <option value="$PROJECT_DIR$/scrapy_pc/spiders/源码解释.py" />
+        <option value="$PROJECT_DIR$/scrapy_pc/spiders/tianyan4.py" />
+        <option value="$PROJECT_DIR$/scrapy_pc/spiders/myspiderClass.py" />
+        <option value="$PROJECT_DIR$/scrapy_pc/spiders/testip.py" />
+        <option value="$PROJECT_DIR$/scrapy_pc/spiders/scrapy25.py" />
+        <option value="$PROJECT_DIR$/scrapy_pc/middlewares.py" />
+        <option value="$PROJECT_DIR$/scrapy_pc/settings.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="76" />
-    <option name="y" value="23" />
+    <option name="x" value="167" />
+    <option name="y" value="24" />
     <option name="width" value="1056" />
     <option name="height" value="693" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -147,9 +155,10 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../hermit" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../test" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="Errors" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -207,16 +216,22 @@
       <workItem from="1563861211395" duration="968000" />
       <workItem from="1563866426944" duration="8842000" />
       <workItem from="1563880119053" duration="58000" />
+      <workItem from="1564017936842" duration="9663000" />
+      <workItem from="1564034386467" duration="4275000" />
+      <workItem from="1564102163481" duration="931000" />
+      <workItem from="1564103570975" duration="1544000" />
+      <workItem from="1564106549614" duration="306000" />
+      <workItem from="1564360715036" duration="1379000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14930000" />
+    <option name="totallyTimeSpent" value="33028000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22692889" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22012103" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -230,7 +245,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.2689211" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.6" />
       <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -250,11 +265,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spiders-2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1674" />
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/spiders-2.html" />
     <entry file="file://$USER_HOME$/.PyCharm2018.3/system/python_stubs/637097089/builtins.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
@@ -262,74 +273,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/position.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/t.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/position.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="1" column="18" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scrapy_pc/spiders/my_spider.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-70">
-          <caret line="9" column="17" lean-forward="true" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/SoftWare/Python36/Lib/site-packages/scrapy/http/request/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1576">
-          <caret line="104" column="18" selection-start-line="104" selection-start-column="15" selection-end-line="104" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scrapy_pc/spiders/tianyan2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="32" column="79" selection-start-line="32" selection-start-column="79" selection-end-line="32" selection-end-column="79" />
-          <folding>
-            <element signature="e#24#37#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scrapy_pc/spiders/tianyan.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
-          <caret line="28" column="83" selection-start-line="28" selection-start-column="52" selection-end-line="28" selection-end-column="83" />
-          <folding>
-            <element signature="e#24#37#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scrapy_pc/spiders/tianyan3.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="702">
-          <caret line="43" column="30" selection-start-line="43" selection-start-column="30" selection-end-line="43" selection-end-column="30" />
-          <folding>
-            <element signature="e#24#33#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scrapy_pc/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="864">
-          <caret line="48" column="1" selection-start-line="48" selection-start-column="1" selection-end-line="48" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/position.json" />
+    <entry file="file://$PROJECT_DIR$/t.csv" />
+    <entry file="file://$PROJECT_DIR$/position.csv" />
     <entry file="file://D:/SoftWare/Python36/Lib/re.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3420">
@@ -344,10 +290,131 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/scrapy_pc/spiders/tianyan2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="303">
+          <caret line="32" column="79" selection-start-line="32" selection-start-column="79" selection-end-line="32" selection-end-column="79" />
+          <folding>
+            <element signature="e#24#37#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scrapy_pc/spiders/tianyan3.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="327">
+          <caret line="43" column="30" selection-start-line="43" selection-start-column="30" selection-end-line="43" selection-end-column="30" />
+          <folding>
+            <element signature="e#24#33#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scrapy_pc/spiders/tianyan.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="21" column="38" selection-start-line="21" selection-start-column="38" selection-end-line="21" selection-end-column="38" />
+          <folding>
+            <element signature="e#24#37#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/SoftWare/Python36/Lib/site-packages/scrapy/spiders/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="26" column="28" selection-start-line="26" selection-start-column="28" selection-end-line="26" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/SoftWare/Python36/Lib/site-packages/scrapy/linkextractors/lxmlhtml.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1530">
+          <caret line="96" column="8" selection-start-line="96" selection-start-column="8" selection-end-line="96" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/SoftWare/Python36/Lib/site-packages/scrapy/spiders/crawl.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="37" column="59" selection-start-line="37" selection-start-column="59" selection-end-line="37" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scrapy_pc/spiders/源码解释.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="666">
+          <caret line="41" column="20" selection-start-line="41" selection-start-column="20" selection-end-line="41" selection-end-column="20" />
+          <folding>
+            <element signature="e#195#206#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scrapy_pc/spiders/tianyan4.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+          <folding>
+            <element signature="e#24#37#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scrapy_pc/spiders/my_spider.py" />
     <entry file="file://$PROJECT_DIR$/scrapy_pc/spiders/boss.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="11" column="35" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
+        <state relative-caret-position="18">
+          <caret line="1" selection-start-line="1" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/SoftWare/Python36/Lib/site-packages/scrapy/http/request/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="89">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scrapy_pc/spiders/testip.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="15" column="28" lean-forward="true" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scrapy_pc/spiders/myspiderClass.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="319">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scrapy_pc/spiders/scrapy25.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="24" column="67" selection-start-line="24" selection-start-column="67" selection-end-line="24" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scrapy_pc/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="366">
+          <caret line="115" column="3" selection-start-line="115" selection-start-column="3" selection-end-line="115" selection-end-column="3" />
+          <folding>
+            <element signature="e#1736#3983#0" />
+            <element signature="e#4116#7243#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scrapy_pc/middlewares.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="123" column="19" lean-forward="true" selection-start-line="123" selection-start-column="19" selection-end-line="123" selection-end-column="19" />
+          <folding>
+            <element signature="e#169#182#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

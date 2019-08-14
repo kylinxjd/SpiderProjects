@@ -48,29 +48,26 @@ def get_ip(page):
         ret2 = html_doc.xpath('//table/tr/td[3]/text()')
         ret3 = html_doc.xpath('//table/tr/td[6]/text()')
 
-        print(ret1)
-        print(ret2)
-        print(ret3)
-
         for ip, port, protocol in zip(ret1, ret2, ret3):
             proxy = {
                 protocol: "%s://%s:%s" % (protocol, ip, port)
             }
+            scrapy_proxy = "'%s://%s:%s'," % (protocol, ip, port)
             try:
                 res = requests.get(url='https://www.baidu.com',
                                    headers={
                                        'User-Agent': heads[random.randint(0, 10)]
                                    },
                                    proxies=proxy)
-                print(res.content)
                 print(res.status_code)
             except Exception as e:
                 print("sss", e)
                 print("失败")
             else:
-                print(proxy)
+                print(scrapy_proxy)
                 print("成功")
                 ipqueue.put(json.dumps(proxy))
+                # ipqueue.put(scrapy_proxy)
 
 
 def save():
@@ -90,6 +87,7 @@ def save():
 
 if __name__ == '__main__':
     get_ip(2)
+    f = open('ip.txt', 'w')
     while True:
         if ipqueue.qsize() == 0:
             break
@@ -101,4 +99,7 @@ if __name__ == '__main__':
         else:
             print(pro, end=',')
             print('')
+            f.write(pro + '\n')
+    f.close()
+
     # threading.Thread(target=)

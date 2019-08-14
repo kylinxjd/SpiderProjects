@@ -19,9 +19,7 @@ class FinanceSpider(scrapy.Spider):
             yield scrapy.Request(url=url,
                                  callback=self.second_handler,
                                  meta={'title': title, 'url': url},
-                                 dont_filter = True)
-
-
+                                 dont_filter=True)
 
     def second_handler(self, response):
         print("dddddddddddddddddddddddddd")

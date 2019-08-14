@@ -1,21 +1,25 @@
 def wapper(func):
-    print("aaaaaaaaaaaaaaaaaaa")
-
     def inner(*args, **kwargs):
-        print("KKKKKKKKKKKKKKKKKKKKKKKKK")
+        print("执行function——a之前")
+        print("传递的参数")
         print(args)
         print(kwargs)
+
         return func(*args, **kwargs)
 
-    print("xxxxxxxxxxxxxxxxxxxxxxxxx")
     return inner
 
 
 @wapper
-def a(num1, num2=4):
-    print("ssss")
-    print(num1+4)
-    return "xjd"
+def a(num1, num2=5):
+    print("执行function——a")
+    print(num1)
+    print(num2)
 
 
-print(a(3, num2=3))
+def b():
+    print("执行function——b")
+
+
+if __name__ == '__main__':
+    a(2, num2=56)

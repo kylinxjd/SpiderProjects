@@ -23,7 +23,7 @@ class BaidufinancePipeline(object):
                 raise DropItem("Duplicate item found: %s" % item)
             else:
                 self.urls.add(item['url'])
-                with open('baidu.csv', 'a+', newline='') as f:
+                with open('baiducrawl.csv', 'a+', newline='') as f:
                     w = csv.writer(f)
                     w.writerow(dict(item).values())
 
