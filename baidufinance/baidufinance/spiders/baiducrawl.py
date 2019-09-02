@@ -22,13 +22,15 @@ class BaiducrawlSpider(CrawlSpider):
         # item['name'] = response.xpath('//div[@id="name"]').get()
         # item['description'] = response.xpath('//div[@id="description"]').get()
         node_list = response.xpath('//ul[@class="ulist fb-list"]/li')
+
         print(len(node_list))
         for node in node_list:
             title = node.xpath('./a/text()').extract_first()
             detail_url = node.xpath('./a/@href').extract_first()
             print(":::::::::::::::::::::", title)
             print(":::::::::::::::::::::", detail_url)
-            yield scrapy.Request(url=detail_url, callback=self.detail_parse, meta={'title': title, 'url': detail_url},
+            yield scrapy.Request(url=detail_url, callback=self.detail_parse,
+                                 meta={'title': title, 'url': detail_url},
                                  dont_filter=True)
         # return item
 

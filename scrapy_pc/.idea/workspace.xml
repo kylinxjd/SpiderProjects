@@ -1,38 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="eb4a322b-ec05-45a0-912e-6c72081cfb01" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../baidufinance/.idea/inspectionProfiles/Project_Default_copy.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../baidufinance/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../fenghuang/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../fenghuang/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../my_spider/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pachong/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pachong/day0722/test3.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scrapy_pc/spiders/myspiderClass.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scrapy_pc/spiders/源码解释.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../seleniumProject/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../seleniumProject/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../seleniumProject/0726.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../seleniumProject/denglu.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../seleniumProject/代理.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../seleniumProject/代理ip.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../baidufinance/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../baidufinance/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../baidufinance/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../baidufinance/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../baidufinance/baidufinance/pipelines.py" beforeDir="false" afterPath="$PROJECT_DIR$/../baidufinance/baidufinance/pipelines.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../baidufinance/baidufinance/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/../baidufinance/baidufinance/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../baidufinance/baidufinance/spiders/finance.py" beforeDir="false" afterPath="$PROJECT_DIR$/../baidufinance/baidufinance/spiders/finance.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../my_spider/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../my_spider/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pachong/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../pachong/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pachong/day0102/ip.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../pachong/day0102/ip.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pachong/day0102/代理ip.py" beforeDir="false" afterPath="$PROJECT_DIR$/../pachong/day0102/代理ip.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapy_pc/middlewares.py" beforeDir="false" afterPath="$PROJECT_DIR$/scrapy_pc/middlewares.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapy_pc/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/scrapy_pc/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapy_pc/spiders/my_spider.py" beforeDir="false" />
-    </list>
+    <list default="true" id="eb4a322b-ec05-45a0-912e-6c72081cfb01" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,13 +16,13 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/scrapy_pc/spiders/scrapy25.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="462">
+            <state relative-caret-position="616">
               <caret line="24" column="67" selection-start-line="24" selection-start-column="67" selection-end-line="24" selection-end-column="67" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/scrapy_pc/settings.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="366">
@@ -66,16 +35,21 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/scrapy_pc/middlewares.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="297">
-              <caret line="123" column="19" lean-forward="true" selection-start-line="123" selection-start-column="19" selection-end-line="123" selection-end-column="19" />
+              <caret line="123" column="19" selection-start-line="123" selection-start-column="19" selection-end-line="123" selection-end-column="19" />
               <folding>
                 <element signature="e#169#182#0" expanded="true" />
               </folding>
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/scrapy_pc/pipelines.py">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -128,7 +102,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -151,11 +124,12 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../test" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../my_spider" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="Errors" />
@@ -222,16 +196,17 @@
       <workItem from="1564103570975" duration="1544000" />
       <workItem from="1564106549614" duration="306000" />
       <workItem from="1564360715036" duration="1379000" />
+      <workItem from="1566543249493" duration="15000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33028000" />
+    <option name="totallyTimeSpent" value="33043000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22012103" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22228146" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -392,10 +367,23 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/scrapy_pc/spiders/scrapy25.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
+        <state relative-caret-position="616">
           <caret line="24" column="67" selection-start-line="24" selection-start-column="67" selection-end-line="24" selection-end-column="67" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scrapy_pc/middlewares.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="123" column="19" selection-start-line="123" selection-start-column="19" selection-end-line="123" selection-end-column="19" />
+          <folding>
+            <element signature="e#169#182#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scrapy_pc/pipelines.py">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/scrapy_pc/settings.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -404,16 +392,6 @@
           <folding>
             <element signature="e#1736#3983#0" />
             <element signature="e#4116#7243#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scrapy_pc/middlewares.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="123" column="19" lean-forward="true" selection-start-line="123" selection-start-column="19" selection-end-line="123" selection-end-column="19" />
-          <folding>
-            <element signature="e#169#182#0" expanded="true" />
           </folding>
         </state>
       </provider>

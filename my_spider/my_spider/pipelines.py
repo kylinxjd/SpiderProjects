@@ -27,16 +27,16 @@ class MySpiderPipeline(object):
         )
 
     def open_spider(self, spider):
-        '''
+        """
         爬虫一旦开启，就会实现这个方法，连接到数据库
-        '''
+        """
         self.client = pymongo.MongoClient(self.mongo_uri)
         self.db = self.client[self.mongo_db]
 
     def close_spider(self, spider):
-        '''
+        """
         爬虫一旦关闭，就会实现这个方法，关闭数据库连接
-        '''
+        """
         self.client.close()
 
     def process_item(self, item, spider):

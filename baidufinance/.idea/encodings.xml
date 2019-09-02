@@ -2,6 +2,7 @@
 <project version="4">
   <component name="Encoding" addBOMForNewFiles="with NO BOM">
     <file url="file://$PROJECT_DIR$/baidu.csv" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/baidubb.csv" charset="GBK" />
     <file url="file://$PROJECT_DIR$/baiducrawl.csv" charset="GBK" />
   </component>
 </project>

@@ -2,30 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="57ddc2b6-24c6-4b10-b820-79cbd2aa15ab" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default_copy.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../fenghuang/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../fenghuang/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../my_spider/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pachong/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pachong/day0722/test3.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../scrapy_pc/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../scrapy_pc/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../scrapy_pc/scrapy_pc/spiders/myspiderClass.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../scrapy_pc/scrapy_pc/spiders/源码解释.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/baidufinance/pipelines.py" beforeDir="false" afterPath="$PROJECT_DIR$/baidufinance/pipelines.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/baidufinance/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/baidufinance/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/baidufinance/spiders/finance.py" beforeDir="false" afterPath="$PROJECT_DIR$/baidufinance/spiders/finance.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/baidufinance/spiders/baiducrawl.py" beforeDir="false" afterPath="$PROJECT_DIR$/baidufinance/spiders/baiducrawl.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../my_spider/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../my_spider/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pachong/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../pachong/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pachong/day0102/ip.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../pachong/day0102/ip.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pachong/day0102/代理ip.py" beforeDir="false" afterPath="$PROJECT_DIR$/../pachong/day0102/代理ip.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my_spider/my_spider/pipelines.py" beforeDir="false" afterPath="$PROJECT_DIR$/../my_spider/my_spider/pipelines.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my_spider/my_spider/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/../my_spider/my_spider/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../scrapy_pc/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../scrapy_pc/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../scrapy_pc/scrapy_pc/middlewares.py" beforeDir="false" afterPath="$PROJECT_DIR$/../scrapy_pc/scrapy_pc/middlewares.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../scrapy_pc/scrapy_pc/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/../scrapy_pc/scrapy_pc/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../scrapy_pc/scrapy_pc/spiders/my_spider.py" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -38,71 +22,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/baidufinance/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="504">
-              <caret line="24" column="11" selection-start-line="24" selection-start-column="11" selection-end-line="24" selection-end-column="11" />
+            <state relative-caret-position="196">
+              <caret line="73" column="1" lean-forward="true" selection-start-line="73" selection-start-column="1" selection-end-line="73" selection-end-column="1" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/baidufinance/spiders/finance.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="178">
-              <caret line="15" column="30" lean-forward="true" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
-              <folding>
-                <element signature="e#24#37#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/baidufinance/spiders/baiducrawl.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="882">
-              <caret line="42" column="39" selection-start-line="42" selection-start-column="39" selection-end-line="42" selection-end-column="39" />
-              <folding>
-                <element signature="e#24#37#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/baiducrawl.csv">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="14" selection-start-column="12" selection-end-column="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/baidufinance/pipelines.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="21" column="18" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
+            <state relative-caret-position="173">
+              <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
               <folding>
                 <element signature="e#194#204#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/baidufinance/items.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="10" column="22" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://D:/SoftWare/Python36/Lib/site-packages/scrapy/http/request/__init__.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="273">
-              <caret line="20" column="39" selection-start-line="20" selection-start-column="39" selection-end-line="20" selection-end-column="39" />
             </state>
           </provider>
         </entry>
@@ -117,11 +50,11 @@
       <list>
         <option value="$PROJECT_DIR$/baidufinance/items.py" />
         <option value="$PROJECT_DIR$/baidu.csv" />
-        <option value="$PROJECT_DIR$/baidufinance/settings.py" />
-        <option value="$PROJECT_DIR$/baidufinance/pipelines.py" />
         <option value="$PROJECT_DIR$/baiducrawl.csv" />
-        <option value="$PROJECT_DIR$/baidufinance/spiders/baiducrawl.py" />
         <option value="$PROJECT_DIR$/baidufinance/spiders/finance.py" />
+        <option value="$PROJECT_DIR$/baidufinance/settings.py" />
+        <option value="$PROJECT_DIR$/baidufinance/spiders/baiducrawl.py" />
+        <option value="$PROJECT_DIR$/baidufinance/pipelines.py" />
       </list>
     </option>
   </component>
@@ -150,6 +83,12 @@
               <item name="baidufinance" type="462c0819:PsiDirectoryNode" />
               <item name="baidufinance" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="baidufinance" type="b2602c69:ProjectViewProjectNode" />
+              <item name="baidufinance" type="462c0819:PsiDirectoryNode" />
+              <item name="baidufinance" type="462c0819:PsiDirectoryNode" />
+              <item name="spiders" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -158,7 +97,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../scrapy_pc" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../pachong" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="Errors" />
@@ -190,19 +129,19 @@
       <workItem from="1564041771298" duration="5650000" />
       <workItem from="1564054085337" duration="11000" />
       <workItem from="1564101721651" duration="1038000" />
+      <workItem from="1566543498750" duration="1613000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14360000" />
+    <option name="totallyTimeSpent" value="15973000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1762481" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info id="Structure" order="0" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="1" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="2" visible="true" weight="0.17803837" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -214,7 +153,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.9516129" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.6974973" />
       <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -237,13 +176,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/baidu.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="7" column="9" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://D:/SoftWare/Python36/Lib/site-packages/scrapy/spiders/crawl.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="89">
@@ -251,10 +183,47 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/baidufinance/settings.py">
+    <entry file="file://D:/SoftWare/Python36/Lib/site-packages/scrapy/http/request/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="24" column="11" selection-start-line="24" selection-start-column="11" selection-end-line="24" selection-end-column="11" />
+        <state relative-caret-position="364">
+          <caret line="20" column="39" selection-start-line="20" selection-start-column="39" selection-end-line="20" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/baidufinance/middlewares.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1597">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/baidufinance/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/baidufinance/spiders/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/baidufinance/items.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/baidufinance/spiders/finance.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="38" column="31" lean-forward="true" selection-start-line="38" selection-start-column="31" selection-end-line="38" selection-end-column="31" />
+          <folding>
+            <element signature="e#24#37#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/baidu.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="7" column="9" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
         </state>
       </provider>
     </entry>
@@ -265,46 +234,39 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/baidufinance/pipelines.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="18" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
-          <folding>
-            <element signature="e#194#204#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/baidufinance/items.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="10" column="22" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/SoftWare/Python36/Lib/site-packages/scrapy/http/request/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="20" column="39" selection-start-line="20" selection-start-column="39" selection-end-line="20" selection-end-column="39" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/baidubb.csv">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/baidufinance/spiders/baiducrawl.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="882">
-          <caret line="42" column="39" selection-start-line="42" selection-start-column="39" selection-end-line="42" selection-end-column="39" />
+        <state relative-caret-position="-733">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
           <folding>
             <element signature="e#24#37#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/baidufinance/spiders/finance.py">
+    <entry file="file://$PROJECT_DIR$/baidufinance/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="178">
-          <caret line="15" column="30" lean-forward="true" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
+        <state relative-caret-position="196">
+          <caret line="73" column="1" lean-forward="true" selection-start-line="73" selection-start-column="1" selection-end-line="73" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cccc.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="8" column="223" selection-start-line="8" selection-start-column="223" selection-end-line="8" selection-end-column="223" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/baidufinance/pipelines.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="173">
+          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
           <folding>
-            <element signature="e#24#37#0" expanded="true" />
+            <element signature="e#194#204#0" expanded="true" />
           </folding>
         </state>
       </provider>
